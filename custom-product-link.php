@@ -19,7 +19,7 @@ add_action('woocommerce_product_options_general_product_data', 'cpl_add_custom_f
 function cpl_add_custom_field() {
     woocommerce_wp_text_input([
         'id'          => '_custom_product_link',
-        'label'       => __('Custom Product Link', 'custom-product-link'),
+        'label'       => __('Enlace Botón Comprar', 'custom-product-link'),
         'placeholder' => 'https://example.com',
         'desc_tip'    => true,
         'description' => __('Añade un enlace personalizado para este producto.', 'custom-product-link'),
